@@ -3,7 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Me</title>
+    <style>
+      body{
+        background-image: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .box {
+        width: 200px;
+        border: 1px solid white;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 300px;
+      }
+      .box p {
+        margin: 10px 0 0;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .border {
+        border: 1px solid white;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container" style="display: flex;">
+      <div class="box">
+        <img src="images/Syahrul.jpeg" alt="Muhammad Syahrul Hidayat" />
+        <p style="color: white;">Muhammad Syahrul Hidayat</p>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <div class="career-goal" style="display: flex;">
+          <h2 style="color: white;"><b>Career Goal</b></h2>
+        </div>
+        <div class="information" style="display: flex">
+          <p style="color: white;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+            maxime sint obcaecati nemo ad inventore sunt nihil, soluta officiis
+            magnam quidem. Neque eveniet ea, unde beatae dolor animi aut veniam.
+          </p>
+        </div>
+        <div class="border my-10 w-full"></div>
+        <br>
+        <div class="table" display: flex>
+          <table style="color: white;">
+            <tr>
+              <td><b>D.O.B</b></td>
+              <td>:</td>
+              <td>22-02-2007</td>
+            </tr>
+            <tr>
+              <td><b>PHONE</b></td>
+              <td>:</td>
+              <td>+62-858-8005-7077</td>
+            </tr>
+            <tr>
+              <td><b>ADDRESS</b></td>
+              <td>:</td>
+              <td>
+                Jln. Bazoka Raya No.91 RT.02 RW.10 Larangan Indah, Larangan,
+                Tangerang, Banten
+              </td>
+            </tr>
+            <tr>
+              <td><b>E-MAIL</b></td>
+              <td>:</td>
+              <td>muhammadsyahrulh22@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
