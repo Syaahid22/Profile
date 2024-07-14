@@ -6,6 +6,16 @@ body {
   width: 100vw;
 }
 
+.navbar {
+  color: white;
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  position: sticky;
+  display: flex;
+  align-content: center;
+}
+
 .container {
   display: flex;
   height: 100%;
