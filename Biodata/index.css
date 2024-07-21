@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-size: cover;
   background-image: url(images/background.jpg);
-  width: 100vw;
+  width: 100%;
 }
 
 .navbar {
@@ -11,10 +11,8 @@ body {
   height: 80px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0, 5);
-  position: sticky;
   display: flex;
   align-content: center;
-  font-family: sans-serif;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 6px pink;
 }
@@ -40,8 +38,9 @@ body {
 
 .container {
   display: flex;
+  flex-direction: row;
   height: 100%;
-  width: 100vw;
+  padding: 20px;
 }
 
 .box-photo {
@@ -52,14 +51,22 @@ body {
   width: 50%;
 }
 
+.caption {
+  color: white;
+}
+
 .photo {
   border: solid white 1px;
+  padding: 10px;
+}
+
+.image {
   width: 150px;
-  margin: 50px;
-  padding: 50px;
+  padding: 40px;
 }
 
 .name {
+  display: flex;
   margin-top: 10px;
   font-size: 1.2em;
   color: white;
@@ -67,7 +74,8 @@ body {
 
 .box-information {
   width: 50%;
-  padding: 100px 100px 100px 0px;
+  display: flex;
+  align-content: center;
   color: white;
 }
 
@@ -87,20 +95,40 @@ body {
 
 .section-contact {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   color: white;
+  background-color: pink;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.form input {
+  height: 20px;
+  border-radius: 8px;
 }
 
 @media (max-width: 700px) {
   .container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    width: 100%;
   }
   .box-information {
-    padding: 30px;
     width: 100%;
   }
   .box-photo {
     width: 100%;
-    padding: 30px;
   }
 }
