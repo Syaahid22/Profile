@@ -1,0 +1,31 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  border: solid black 1px;
+}
+
+.box-header {
+  background-color: white;
+}
+
+.your-account {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.add-account {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}

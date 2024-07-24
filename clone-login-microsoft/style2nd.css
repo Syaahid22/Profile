@@ -1,0 +1,49 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  gap: 15px;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  border: solid black 1px;
+}
+
+.box-header {
+  background-color: white;
+}
+
+.input-acc {
+  background-color: white;
+}
+
+.button {
+  background-color: white;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  border: solid black 1px;
+}
+
+.photo-option {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+}
