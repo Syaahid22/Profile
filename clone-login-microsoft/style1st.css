@@ -1,13 +1,11 @@
 .container {
   display: flex;
-  /* background-color: gray; */
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
 .box-signin {
-  /* height: 440px; */
   width: 338px;
   padding: 20px;
   border: solid black 1px;
@@ -25,7 +23,6 @@
   flex-direction: row;
   gap: 10px;
   align-items: center;
-  /* justify-content: space-between; */
   background-color: white;
   position: relative;
 }

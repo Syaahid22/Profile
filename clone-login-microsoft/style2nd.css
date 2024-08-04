@@ -1,17 +1,17 @@
-.body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-size: cover;
-}
-
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  height: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-signin {
+  width: 440px;
+  height: 338px;
   padding: 20px;
-  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .sign-in {
@@ -31,19 +31,45 @@
   background-color: white;
 }
 
+.form input {
+  border: none;
+  border-bottom: solid black 1px;
+}
+
 .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 5px;
   background-color: white;
+}
+
+.button-back {
+  width: 80px;
+  padding: 8px;
+  border: none;
+  background-color: gray;
+}
+
+.button-next {
+  width: 80px;
+  padding: 8px;
+  border: none;
+  color: white;
+  background-color: blue;
 }
 
 .option {
   display: flex;
   flex-direction: row;
+  padding-left: 30px;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
   border: solid black 1px;
 }
 
-.photo-option {
-  width: 40px;
-  height: 40px;
-  margin: 5px;
-  padding: 5px;
+.icon {
+  height: 30px;
+  width: 30px;
 }
