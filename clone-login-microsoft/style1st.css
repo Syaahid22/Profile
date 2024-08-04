@@ -1,17 +1,19 @@
-.body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-size: cover;
-}
-
 .container {
   display: flex;
+  /* background-color: gray; */
   justify-content: center;
-  flex-direction: column;
-  height: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-signin {
+  /* height: 440px; */
+  width: 338px;
   padding: 20px;
   border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .box-header {
@@ -20,12 +22,35 @@
 
 .your-account {
   display: flex;
+  flex-direction: row;
+  gap: 10px;
   align-items: center;
+  /* justify-content: space-between; */
   background-color: white;
+  position: relative;
+}
+
+.signin-area {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.option {
+  position: absolute;
+  right: 0;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
 }
 
 .add-account {
   display: flex;
+  flex-direction: row;
+  gap: 10px;
   align-items: center;
   background-color: white;
 }
