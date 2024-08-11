@@ -7,7 +7,7 @@
 
 .box-signin {
   width: 338px;
-  padding: 20px;
+  padding: 20px 0px;
   border: solid black 1px;
   display: flex;
   flex-direction: column;
@@ -15,16 +15,20 @@
 }
 
 .box-header {
+  padding: 0px 20px;
   background-color: white;
 }
 
 .your-account {
   display: flex;
   flex-direction: row;
+  padding: 0px 20px;
   gap: 10px;
   align-items: center;
-  background-color: white;
+  background-color: grey;
   position: relative;
+  border-top: dotted black 1px;
+  border-bottom: dotted black 1px;
 }
 
 .signin-area {
@@ -36,7 +40,7 @@
 
 .option {
   position: absolute;
-  right: 0;
+  right: 20px;
 }
 
 .icon {
@@ -47,6 +51,7 @@
 .add-account {
   display: flex;
   flex-direction: row;
+  padding: 0px 20px;
   gap: 10px;
   align-items: center;
   background-color: white;
